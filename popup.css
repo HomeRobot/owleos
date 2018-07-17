@@ -1,0 +1,156 @@
+button, input[type="submit"] {
+    font-family: Arial, sans-serif;
+    padding: 8px 8px;
+    background: lightgray;
+	animation: fadeEffect 1s;
+	border-radius:3px
+}
+
+.center-img{
+	display: block; 
+	margin: 0 auto;
+	padding-bottom: 12px;
+	padding-top: 16px;
+}
+
+.center{
+	display: block; 
+	margin: 0 auto;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: center;
+}
+
+.centertext{
+	display: block; 
+	margin: 0 auto;
+	text-align: center;
+	font-size:10px;
+	font-weight: bold;
+}
+
+body {
+	background: white;
+	font-family: Arial, sans-serif;
+    color: #4D4D4D;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+	width:370px; 
+	/* height:600px; */
+	max-height:650px;
+	height:auto;
+	overflow:auto;
+}
+
+.history {
+	font-family: Hack, Arial, sans-serif;
+}
+
+.date{
+	font-family: Hack, Arial, sans-serif;
+	font-size: small;
+}
+
+.header{font-size:14px;margin-bottom:8px;text-align:center}
+.header h2{line-height:32px;padding:0;vertical-align:middle}
+.header h2 img{display:inline-block;height:22px;vertical-align:sub}
+
+.message {
+	border: none;
+	height: 30px;
+	width: 90%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin: 0 auto;
+	text-align: center;
+	color: orange;
+	font-weight: 200;
+	font-style: bold;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input{border:solid 1px #ababab;border-radius:3px;height:22px;padding-top:3px;padding-right:10px;padding-bottom:3px;padding-left:10px;width:75%}
+select{border:solid 1px #ababab;border-radius:3px;padding-top:3px;padding-right:10px;padding-bottom:3px;padding-left:10px;height:30px;width:81%}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.infoblock{float:left;padding:2.5%;width:20%}
+
+.title {
+	font-size: 14px;
+	font-style: bold;
+}
+
+.hg{
+	font-size: 14px;
+}
+
+.tbl {
+	width: 100%;
+	padding: 4px;
+}
+
+td {
+	font-family: Hack, Arial, sans-serif;
+	border-bottom: 1px solid lightgray;
+	color: gray;
+}
+
+.circles-text {
+	font-size: 16.5px!important;
+}
+
+/*  TABS  */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.clearfix{clear:both}
+.tablinks{border-radius:0}
+#hello{border-bottom:solid 1px #ddd;margin-bottom:5px;padding-right:15px;padding-left:15px}
+#hello h3{font-weight:300;margin-top:5px;margin-bottom:5px}
+#hello h3 #username{font-weight:700}
