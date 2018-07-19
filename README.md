@@ -1,6 +1,8 @@
 # owl EOS Wallet
 Owl EOS wallet for Google Chrome
 
+Installation link: https://chrome.google.com/webstore/detail/owl-eos-wallet-plugin/pibpgobjoeapiccleelidkaeeiodjlfg
+
 OWL EOS Wallet is easy to use. Here are some scenarios for using it:
 
 ## 1. Registration.
