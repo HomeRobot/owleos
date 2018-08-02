@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 		key = '';
 		let me = JSON.parse(localStorage.getItem(getWallet())).account;
-		let acc = id('transfer_acc').value.trim();
+		let acc = id('stake_acc').value.trim();
 		if(acc == '') {
 			acc = me;
 		}
